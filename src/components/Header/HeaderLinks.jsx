@@ -42,6 +42,54 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
+          <Link to='/' style={{color: 'white'}}>
+            <Button
+              color="transparent"
+              target="_blank"
+              className={classes.navLink}
+            >
+              <span>
+                Home
+              </span>
+            </Button>
+          </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+          <Button
+            color="transparent"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <span>
+              Schedule
+            </span>
+          </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+          <Link to='/gallery' style={{color: 'white'}}>
+            <Button
+              color="transparent"
+              target="_blank"
+              className={classes.navLink}
+            >
+              <span>
+                Gallery
+              </span>
+            </Button>
+          </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+          <Button
+            color="transparent"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <span>
+              Contact
+            </span>
+          </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
           title="Follow us on facebook"

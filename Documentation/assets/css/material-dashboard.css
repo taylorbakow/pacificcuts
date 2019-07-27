@@ -1267,7 +1267,7 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.btn-primary.active {
 .btn.btn-primary.btn-simple,
 .navbar .navbar-nav>li>a.btn.btn-primary.btn-simple {
     background-color: transparent;
-    color: #9c27b0;
+    color: white;
     box-shadow: none;
 }
 
@@ -1278,7 +1278,7 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.btn-primary.active {
 .navbar .navbar-nav>li>a.btn.btn-primary.btn-simple:focus,
 .navbar .navbar-nav>li>a.btn.btn-primary.btn-simple:active {
     background-color: transparent;
-    color: #9c27b0;
+    color: white;
 }
 
 .btn.btn-info,
