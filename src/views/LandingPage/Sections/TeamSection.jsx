@@ -62,8 +62,8 @@ class TeamSection extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    Coolest poly barber around. You can write more details here.
-                    Feel free to add some <a href="#pablo">links</a> for people
+                    Coolest barber around. You can write more details here.
+                    Feel free to add some <a href="/">links</a> for people
                     to be able to follow.
                   </p>
                 </CardBody>
@@ -79,6 +79,7 @@ class TeamSection extends React.Component {
                     justIcon
                     color="transparent"
                     className={classes.margin5}
+                    href="https://www.facebook.com/jt.skattebo"
                   >
                     <i className={classes.socials + " fab fa-facebook"} />
                   </Button>
@@ -86,6 +87,7 @@ class TeamSection extends React.Component {
                     justIcon
                     color="transparent"
                     className={classes.margin5}
+                    href="https://www.instagram.com/jcutz15/"
                   >
                     <i className={classes.socials + " fab fa-instagram"} />
                   </Button>

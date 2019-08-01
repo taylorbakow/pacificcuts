@@ -57,7 +57,7 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Title</h1>
+                <h1 className={classes.title}>Pacific Cuts</h1>
                 <h4>
                   Every landing page needs a small description after the big
                   bold title, that{"'"}s why we added this text here. Add here
@@ -65,16 +65,14 @@ class LandingPage extends React.Component {
                   the first impression.
                 </h4>
                 <br />
-                {/* <Button
-                  color="danger"
+                <Button
+                  color="gray"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                  target="_blank"
+                  target="_self"
                   rel="noopener noreferrer"
                 >
-                  <i className="fas fa-play" />
-                  Watch video
-                </Button> */}
+                  Schedule Now
+                </Button>
               </GridItem>
             </GridContainer>
           </div>
