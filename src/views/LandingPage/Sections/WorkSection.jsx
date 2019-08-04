@@ -40,10 +40,7 @@ class WorkSection extends React.Component {
           <GridItem cs={12} sm={12} md={8}>
             <h2 className={classes.title}>Contact</h2>
             <h4 className={classes.description}>
-              Divide details about your product or agency work into parts. Write
-              a few lines about each one and contact us about any further
-              collaboration. We will responde get back to you in a couple of
-              hours.
+              Blah blah blah schedule/contact Me, send me a direct message with the Form Below
             </h4>
             <form>
               <GridContainer>
@@ -77,16 +74,9 @@ class WorkSection extends React.Component {
                     rows: 5
                   }}
                 />
-                <GridContainer justify="center">
-                  <GridItem
-                    xs={12}
-                    sm={12}
-                    md={4}
-                    className={classes.textCenter}
-                  >
-                    <Button color="primary">Send Message</Button>
-                  </GridItem>
-                </GridContainer>
+                <GridItem cs={12} sm={12} md={12} style={{textAlign: 'center'}}>
+                  <Button color="primary">Send Message</Button>
+                </GridItem>
               </GridContainer>
             </form>
           </GridItem>

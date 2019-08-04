@@ -42,22 +42,21 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-          <Link to='/'>
             <Button
               color="transparent"
-              target="_blank"
               className={classes.navLink}
+              href='/'
+              target="_self"
             >
               <span>
                 Home
               </span>
             </Button>
-          </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
           <Button
             color="transparent"
-            target="_blank"
+            target="_self"
             className={classes.navLink}
           >
             <span>
@@ -66,22 +65,21 @@ function HeaderLinks({ ...props }) {
           </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-          <Link to='/gallery'>
             <Button
               color="transparent"
-              target="_blank"
               className={classes.navLink}
+              href='/gallery'
+              target="_self"
             >
               <span>
                 Gallery
               </span>
             </Button>
-          </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
           <Button
             color="transparent"
-            target="_blank"
+            target="_self"
             className={classes.navLink}
           >
             <span>
