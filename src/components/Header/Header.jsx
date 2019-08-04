@@ -125,7 +125,7 @@ class Header extends React.Component {
             }}
             onClose={this.handleDrawerToggle}
           >
-            <div className={classes.appResponsive}>
+            <div className={classes.appResponsive} Style={{color: 'black'}}>
               {leftLinks}
               {rightLinks}
             </div>

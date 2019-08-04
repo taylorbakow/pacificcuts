@@ -42,7 +42,7 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-          <Link to='/' style={{color: 'white'}}>
+          <Link to='/'>
             <Button
               color="transparent"
               target="_blank"
@@ -66,7 +66,7 @@ function HeaderLinks({ ...props }) {
           </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-          <Link to='/gallery' style={{color: 'white'}}>
+          <Link to='/gallery'>
             <Button
               color="transparent"
               target="_blank"
